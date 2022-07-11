@@ -3,7 +3,9 @@
     font-family: 'Roboto', sans-serif;    
 }
 
-header {
+/* HEADER & FOOTER*/
+
+header, footer {
     background: #1f2937;
     color: white;
     display: flex;
@@ -19,6 +21,43 @@ header ul {
 li, a {
     color: white;
     list-style-type: none;
+    margin: 0 auto;
     padding: 5px;
     text-decoration: none;
+}
+
+#logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+/* HERO*/
+
+#hero {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    max-height: 20%; 
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-article {
+    padding: 20% 10%;
+    max-width: 50%;
+}
+
+.hero-article button {
+    background: rgb(59, 130, 246);
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
 }
