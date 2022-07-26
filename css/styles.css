@@ -22,7 +22,7 @@ li, a {
     color: white;
     list-style-type: none;
     margin: 0 auto;
-    padding: 5px;
+    padding: 0 5px;
     text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ li, a {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 700;
-    padding: 5px;
+    margin: 10px 0;
 }
 
 /* HERO*/
@@ -45,8 +45,14 @@ li, a {
 }
 
 .hero-article {
-    padding: 20% 10%;
-    max-width: 50%;
+    max-height: 25%;
+    max-width: 60%;
+    padding: 5% 2.5%;
+}
+
+.hero-article p {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero-article button {
@@ -61,3 +67,47 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
 }
+
+/* RANDOM INFO*/
+
+.tile-panel {
+    height: 25%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tile-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tile-image {
+    border: solid 3px rgb(59, 130, 246);
+    border-radius: 10%;
+    height: 30%;
+}
+
+figcaption {
+    margin: 5% 0;
+}
+
+/* QUOTE SECTION*/
+
+.quote {
+    background: rgb(229, 231, 235);
+}
+
+#quoted-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+#quoted-text + span {
+    font-weight: bold;
+    text-align: end;    
+}
+
